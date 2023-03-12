@@ -12,7 +12,7 @@ Based in Treviso near the beautiful Venice city.
 
 ## 📷 Photographer
 - 💞  Canon EOS RP.
-- 
+
 I love street photograpy, macro and lansdscape.
 
 
@@ -22,7 +22,7 @@ I love street photograpy, macro and lansdscape.
 
 ## Volunteering
 - Co-organizer of GDG Venezia (https://gdg.community.dev/gdg-venezia)
-- Coderdojo Zero Branco mentor with Scratch/Arduino/Microbit(https://coderdojozerobranco.wordpress.com/)
+- Coderdojo mentor with Scratch,Arduino,Microbit and AppInventor(Coderdojo Zero Branco - https://coderdojozerobranco.wordpress.com/)
 
 
 
