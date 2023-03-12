@@ -23,8 +23,7 @@ I love street photograpy, macro and lansdscape.
 ## Volunteering
 - <a href="https://gdg.community.dev/gdg-venezia"><img align="center" src="https://github.com/MisterAnt92/misterAnt92/blob/main/gdg25.png" width="15px"> Co-organizer of Google Developer Group of Venezia</a><br>
 
-
-- Coderdojo mentor with Scratch,Arduino,Microbit and AppInventor (Coderdojo Zero Branco - https://coderdojozerobranco.wordpress.com/)
+- <a href="https://coderdojozerobranco.wordpress.com/"><img align="center" src="https://github.com/MisterAnt92/misterAnt92/blob/main/coder-dojo-ireland-logo25.png" width="15px"> Coderdojo mentor with Scratch,Arduino,Microbit and AppInventor (Coderdojo Zero Branco)</a><br>
 
 ## Languages
 <!-- Most used languages -->
