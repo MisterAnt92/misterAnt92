@@ -31,8 +31,6 @@ I love street photograpy, macro and lansdscape.
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MisterAnt92&title_color=ffffff&text_color=c9cacc&icon_color=ff7900&bg_color=1d1f21" />
 </a>
 
-
-
 <!--
 **MisterAnt92/misterAnt92** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
