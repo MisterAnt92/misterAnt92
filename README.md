@@ -21,8 +21,16 @@ I love street photograpy, macro and lansdscape.
 - 💙 CorriTreviso ASD.
 
 ## Volunteering
-- Co-organizer of GDG Venezia (https://gdg.community.dev/gdg-venezia)
-- Coderdojo mentor with Scratch,Arduino,Microbit and AppInventor(Coderdojo Zero Branco - https://coderdojozerobranco.wordpress.com/)
+- <a href="https://gdg.community.dev/gdg-venezia"><img align="center" src="https://github.com/MisterAnt92/misterAnt92/blob/main/gdg25.png" width="15px"> Co-organizer of Google Developer Group of Venezia</a><br>
+
+
+- Coderdojo mentor with Scratch,Arduino,Microbit and AppInventor (Coderdojo Zero Branco - https://coderdojozerobranco.wordpress.com/)
+
+## Languages
+<!-- Most used languages -->
+<a href="https://github.com/Barros9">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Barros9&title_color=ffffff&text_color=c9cacc&icon_color=ff7900&bg_color=1d1f21" />
+</a>
 
 
 
