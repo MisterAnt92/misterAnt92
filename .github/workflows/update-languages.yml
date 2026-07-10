@@ -1,0 +1,57 @@
+# Languages chart auto-update
+#
+# Runs the generate-languages.js script, which calls the GitHub REST API to
+# aggregate language bytes across all non-fork repositories owned by MisterAnt92,
+# then writes assets/languages.svg.
+#
+# Triggers:
+#   push     – keeps the chart in sync whenever the profile README changes.
+#   schedule – weekly fallback so the chart also reflects changes in *other*
+#              repositories (language stats in those repos update independently).
+#   workflow_dispatch – allows a manual run from the Actions UI.
+#
+# Infinite-loop prevention:
+#   GitHub Actions does NOT re-trigger workflows for pushes made with the
+#   built-in GITHUB_TOKEN, so the automatic commit at the end of this job will
+#   not cause a second run.
+
+name: Update Languages Chart
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Every Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update-chart:
+    runs-on: ubuntu-latest
+
+    # Minimal permissions: only write access to repository contents.
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate languages SVG chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-languages.js
+
+      - name: Commit updated chart (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/languages.svg
+          # Only commit and push when the file actually changed.
+          git diff --cached --quiet || \
+            (git commit -m "chore: update languages chart" && git push)

@@ -1,0 +1,2 @@
+# This file ensures the assets/ directory is tracked by git before the
+# workflow generates assets/languages.svg for the first time.
